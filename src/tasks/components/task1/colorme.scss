@@ -1,0 +1,33 @@
+.colorme-container {
+  display: flex;
+  justify-content: space-around;
+  > div {
+    &:last-child {
+      display: flex;
+      flex-wrap: wrap;
+      width: 350px;
+      height: 350px;
+    }
+  }
+}
+
+.num {
+  &-white {
+    width: 30%;
+    height: 33%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &-green {
+    width: 30%;
+    height: 33%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    //     @extend .-white;
+    background: green;
+  }
+}
